@@ -1,57 +1,76 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Energías Renovables</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="app.js"></script>
+  <title>SUPER Energía</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#servicios">Servicios</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section id="inicio">
-            <h1>Energías Renovables</h1>
-            <p>Impulsamos el uso de energías limpias y sostenibles para un futuro mejor.</p>
-        </section>
-        <section id="servicios">
-            <h2>Nuestros Servicios</h2>
-            <div class="servicio">
-                <h3>Instalaciones Solares Fotovoltaicas Residenciales</h3>
-                <p>Ofrecemos soluciones de energía solar fotovoltaica para hogares, permitiendo reducir la factura eléctrica y la huella de carbono con sistemas solares eficientes.</p>
-            </div>
-            <div class="servicio">
-                <h3>Instalaciones Solares Fotovoltaicas Industriales</h3>
-                <p>Proveemos sistemas de energía solar fotovoltaica para el sector industrial, optimizando la eficiencia energética y reduciendo los costos operativos de las empresas.</p>
-                <img src="1.jpeg" alt="Instalaciones Solares Fotovoltaicas Industriales" style="width: 25%; display: block; margin: 0 auto;">
-            </div>
-            <div class="servicio">
-                <h3>Puntos de Recarga Residenciales</h3>
-                <p>Instalamos estaciones de carga para vehículos eléctricos en viviendas, facilitando la transición hacia un transporte más sostenible y ecológico.</p>
-            </div>
-            <div class="servicio">
-                <h3>Puntos de Recarga de Gran Potencia</h3>
-                <p>Desarrollamos e implementamos estaciones de carga rápida y de gran potencia para vehículos eléctricos, adecuadas para flotas comerciales y estaciones de servicio públicas.</p>
-            </div>
-        </section>
-        <section id="contacto">
-            <h2>Contacto</h2>
-            <p>Si estás interesado en nuestros servicios o tienes alguna consulta, no dudes en ponerte en contacto con nosotros.</p>
-            <p>Email: info@energiasrenovables.com</p>
-            <p>Teléfono: +34 123 456 789</p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2023 Energías Renovables. Todos los derechos reservados.</p>
-    </footer>
-    <!-- Agregando botones -->
-    <div style="text-align: center; padding: 1rem;">
-        <button style="margin: 0.5rem; padding: 0.5rem 1rem; background-color: #4CAF50; color: white;
+  <header>
+    <nav>
+      <a href="#" class="logo">SUPER Energía</a>
+      <ul class="menu">
+        <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
 
+  <main>
+    <section id="hero">
+      <h1>Ilumina tu hogar con energía solar</h1>
+      <p>Contribuye al medio ambiente y ahorra en tu factura de luz</p>
+      <a href="#contacto" class="boton">Solicita información</a>
+    </section>
+
+    <section id="sobre-nosotros">
+      <h2>Sobre Nosotros</h2>
+      <p>Somos una empresa especializada en la instalación y mantenimiento de paneles solares para hogares y negocios. Contamos con un equipo de profesionales altamente cualificados para ofrecer la mejor solución energética para ti.</p>
+    </section>
+
+    <section id="servicios">
+      <h2>Servicios</h2>
+      <ul>
+        <li>
+          <h3>Instalación de Paneles Solares</h3>
+          <p>Instalamos paneles solares de alta calidad para aprovechar al máximo la energía del sol.</p>
+        </li>
+        <li>
+          <h3>Mantenimiento y Reparación</h3>
+          <p>Ofrecemos servicios de mantenimiento y reparación para garantizar el buen funcionamiento de tus paneles solares.</p>
+        </li>
+        <li>
+          <h3>Asesoramiento Personalizado</h3>
+          <p>Te ayudamos a elegir la mejor opción para tu hogar o negocio, teniendo en cuenta tus necesidades y presupuesto.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <p>Si deseas obtener más información sobre nuestros servicios o solicitar un presupuesto, no dudes en contactarnos.</p>
+      <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+<p>© 2023 SUPER Energía. Todos los derechos reservados.</p>
+
+  </footer>
+</body>
+</html>
+```
